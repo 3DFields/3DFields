@@ -19,6 +19,11 @@
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
 
+    <script> 
+      $(function(){
+        $("#MemeberFile").load("members.html"); 
+      });
+      </script> 
 </head>
 <body>
     <header id="header">
@@ -60,23 +65,7 @@
               </p>
             </div>
             
-            <div id="members" class="content-region hide">
-              <h2>Contact</h2>
-              <p>
-                <table>
-                  <tr>
-                    <th>Name</th>
-                    <th>Affiliation</th>
-                    <th>Country</th>
-                  </tr>
-                  <tr>
-                    <td>Mehrnoosh Tahani</td>
-                    <td>Banting - Stanford University</td>
-                    <td>USA & Canada</td>
-                  </tr>
-                </table>
-              </p>
-            </div>
+            <div id="MemeberFile"></div>
 
             <div id="talks" class="content-region hide">
               <h2>Scheduled Talks</h2>
