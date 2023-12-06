@@ -21,9 +21,14 @@
 
     <script> 
       $(function(){
-        $("#MemeberFile").load("members.html"); 
+        $("#MemberFile").load("members.html"); 
       });
-      </script> 
+    </script> 
+    <script> 
+      $(function(){
+        $("#TalkFile").load("talks.html"); 
+      });
+    </script> 
 </head>
 <body>
     <header id="header">
@@ -67,14 +72,12 @@
             
             <div id="members" class="content-region hide">
               <h2>Contact</h2>
-              <p id="MemeberFile"></p>
+              <p id="MemberFile"></p>
             </div>
 
             <div id="talks" class="content-region hide">
               <h2>Scheduled Talks</h2>
-              <p>
-                
-              </p>
+              <p id="TalkFile"></p>
             </div>
             
           </div>
